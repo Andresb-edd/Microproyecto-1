@@ -1,0 +1,17 @@
+const preguntas = [
+    { pregunta: "¿Cuánto es 5 + 7?", opciones: ["10", "11", "12", "13"], respuesta: 2 },
+    { pregunta: "¿Cuánto es 9 x 6?", opciones: ["54", "56", "49", "45"], respuesta: 0 },
+    { pregunta: "¿Cuánto es la raíz cuadrada de 81?", opciones: ["7", "9", "8", "6"], respuesta: 1 },
+    { pregunta: "¿Cuánto es 100 / 4?", opciones: ["20", "25", "30", "40"], respuesta: 1 },
+    { pregunta: "¿Cuánto es 3^3?", opciones: ["6", "9", "27", "18"], respuesta: 2 },
+    { pregunta: "¿Cuál es el valor de pi redondeado a 2 decimales?", opciones: ["3.14", "3.15", "3.12", "3.10"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 15 - 9?", opciones: ["6", "7", "5", "8"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 49 + 51?", opciones: ["100", "99", "101", "98"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 144 / 12?", opciones: ["12", "11", "10", "13"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 11 x 11?", opciones: ["121", "111", "131", "101"], respuesta: 0 },
+    { pregunta: "¿Cuál es el área de un cuadrado de lado 5?", opciones: ["25", "20", "30", "15"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 2 + 2 x 2?", opciones: ["8", "6", "4", "2"], respuesta: 1 },
+    { pregunta: "¿Cuánto es 0 x 25?", opciones: ["0", "25", "1", "100"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 1000 - 1?", opciones: ["999", "998", "100", "990"], respuesta: 0 },
+    { pregunta: "¿Cuánto es 20 x 5?", opciones: ["100", "105", "95", "110"], respuesta: 0 },
+];

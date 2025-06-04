@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz de Matemáticas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main class="quiz-container">
+    <section id="menu">
+        <h1>Quiz de Matemáticas</h1>
+        <input type="text" id="nombreUsuario" placeholder="Ingresa tu nombre" />
+        <button id="btnIniciar" disabled>Iniciar Quiz</button>
+        <button id="btnVerRanking">Ver Ranking</button>
+        <div id="ranking" class="hidden"></div>
+    </section>
+
+    <section id="quiz" class="hidden">
+        <div class="card">
+            <div id="temporizador">5:00</div>
+            <div id="divPregunta"></div>
+            <button id="btnEnviar">Enviar</button>
+        </div>
+    </section>
+
+    <section id="resultados" class="hidden">
+        <h2>Resultados</h2>
+        <p id="puntaje"></p>
+        <button id="btnReintentar">Nuevo Quiz</button>
+        <button id="btnMenu">Volver al Menú</button>
+    </section>
+</main>
+
+<script src="preguntas.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
